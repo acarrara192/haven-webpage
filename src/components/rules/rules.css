@@ -1,0 +1,22 @@
+.rules-container{
+    padding: 2rem;
+    max-height: 100%;
+    margin-top: 10%;
+    
+}
+
+.rules-bg {
+    background-image: url("../../images/courtroom.jpg");    
+}
+
+.rules-list {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 2rem;
+    background-color: white;
+}
+@media (max-width: 768px) {
+    .rules-container {
+        padding: 0;
+    }
+}

@@ -1,0 +1,48 @@
+.lore-content {
+    padding: 2rem;
+    max-height: 100%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    position: relative;
+   
+}
+
+.lore-bg {
+    background-image: url("../../images/haven-cliffs.png");
+}
+
+.art-credit-lore{
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    color: white;
+    left: 50%; /* Horizontally center the element */
+    transform: translateX(-50%); /* Center horizontally */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+
+.world-of-haven p {
+    font-style: oblique;
+}
+
+
+img {
+    max-width: 60vw;
+    max-height: 50vh;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0;
+    }
+
+    .lore-content {
+        padding: 0;
+        margin-bottom: 0;
+    }
+}
