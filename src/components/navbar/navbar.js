@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import './navbar.css';
 import logo from '../../images/haven-logo.jpg'; // Adjust the image path
 import { Link } from 'react-router-dom';
+import ClickAwayListener from '@mui/material/ClickAwayListener';
+
+
 
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -19,6 +22,10 @@ function Navbar() {
 
   return (
     <div>
+            <ClickAwayListener onClickAway={() => {
+        setMobileMenuOpen(false);
+        setShowDropdown(false);
+      }}>
       <div className="navbar">
         <div className="logo-and-title">
           <img src={logo} alt="Haven Logo" className="logo" />
@@ -47,6 +54,7 @@ function Navbar() {
                 </div>
         </div>
       </div>
+      </ClickAwayListener>
     </div>
   );
 }
