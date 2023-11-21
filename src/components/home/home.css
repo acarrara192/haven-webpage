@@ -1,19 +1,29 @@
+.home-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
 
 .home {
     margin: 0;
     padding: 0;
-    padding-top: 5vh;
     background-image: url('../../images/haven-bg-cropped-3-transformed.jpeg'); /* Set your background image here */
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
-    position: relative; /* Needed for positioning the text-box */
+    position: absolute;
+    overflow-y: hidden;
+    top: 8%;
     box-sizing: border-box; 
-    display: flex;
-    align-items: flex-start; /* Push content to top */
-    justify-content: center; /* Align content to left */
+    overflow: hidden;
+
+    
     
 }
 .overlay {
@@ -24,20 +34,21 @@
     width: 45%;
     background: linear-gradient(to right, rgba(243, 243, 244, 0.7), transparent)
     
-
 }
 
 .container {
     max-width: 100%; /* Adjust the maximum width as needed */
     max-height: 100vh;
     margin: 0 auto; /* Center the content horizontally */
-    margin-top: 9%;
   }
 
 
+
 .text-box {
-    margin-top: 1%; /* Adjust vertical margin as needed */
+    display: block;
     position: absolute;
+    top: 5vh;
+    margin-top: 1%; /* Adjust vertical margin as needed */
     text-align: center;
     max-width: 70%;
     padding: 20px;
@@ -67,6 +78,7 @@
     font-size: 18px;
     color: #242424;
     margin-bottom: 20px;
+
 }
 
 .text-box a {
@@ -82,8 +94,9 @@
 .art-credit-home {
     position: absolute;
     bottom: 0;
+    left: 0;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    text-shadow: 1px 1px 2px black;
     margin-left: 1em;
     margin-right: 1em;
 }
@@ -106,7 +119,6 @@
     max-width: 100%; /* Adjust the maximum width as needed */
     max-height: 100vh;
     margin: 0 auto; /* Center the content horizontally */
-    margin-top: 8%;
 }
 
     
@@ -124,19 +136,19 @@
 }
 
 .text-box h2 {
-    font-size: 36px;;
+    font-size: 32px;
+    color:rgba(0, 0, 0)
 }
 
 .text-box h1 {
     font-size: 36px;
-    color: #020202;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #111111;
     margin-bottom: 20px;
 }
 
 .text-box p {
     font-size: 18px;
-    color: #555;
+    color: #111010;
     margin-bottom: 20px;
 }
 
