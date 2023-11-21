@@ -10,7 +10,7 @@ import shambhala from "../../images/lore/shambhala.png"
 
 function Lore() {
     return (
-          <div className="lore-content">
+          <div className="lore-container">
             <div className="page">
             <div className="background-image lore-bg"></div>
               <h1> The World of Haven </h1>
