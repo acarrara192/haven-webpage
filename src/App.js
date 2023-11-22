@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Lore from './components/lore/lore'
 import Home from './components/home/home'
 import Navbar from './components/navbar/navbar';
+import ScrollToTop from './components/navbar/scroll-to-top';
 import Rules from './components/rules/rules';
 import Downtime from './components/downtime/downtime';
 import Carousing from './components/downtime/carousing';
@@ -26,7 +27,8 @@ import Work from './components/downtime/work';
 function App() {
   return (    
     <div>
-      <Router>
+      <Router>    
+      <ScrollToTop />   
         <Navbar></Navbar>
         <div className='container'>
         <Routes>
@@ -52,7 +54,7 @@ function App() {
             <Route path="/downtime/work" element={<Work />} />
         </Routes>
         </div>
-      </Router>        
+      </Router> 
     </div>    
   );
 }

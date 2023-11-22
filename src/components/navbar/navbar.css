@@ -170,9 +170,10 @@
     }
     .dropdown-content {
       display: none;
-      background-color: #333; /* Adjust the background color for mobile */
+      background-color: #434343; /* Adjust the background color for mobile */
       padding: 10px; /* Add some padding to the dropdown content on mobile */
       width: 100%;
+  
     }
     .dropdown:hover .dropdown-content {
       display: none;

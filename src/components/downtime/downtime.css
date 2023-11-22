@@ -1,8 +1,12 @@
 .downtime-container {
-    margin-top: 20vh;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    margin-bottom: 20px;
+    padding-top: 20vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 8vh;
+    background-image: url(../../images/card-paper-texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 
 }
 

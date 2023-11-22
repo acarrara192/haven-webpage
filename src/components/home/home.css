@@ -58,7 +58,7 @@
 
 .text-box h2 {
     white-space: nowrap;
-    font-size: max(3rem);
+    font-size: max(4rem);
     margin-bottom: 1px;
     color: #131313;
 }
@@ -67,7 +67,7 @@
 .text-box h1 {
     margin-top: 0;
     white-space: nowrap;
-    font-size: max(4.5rem);
+    font-size: max(4rem);
     line-height: 1em;
     color: #131313;
     margin-bottom: 20px;
