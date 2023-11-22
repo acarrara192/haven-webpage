@@ -6,6 +6,8 @@ function Downtime() {
   return (
     <div className="downtime-container">
       <h1> Downtime Activities </h1>
+      <p>
+      Downtime activities provide characters with crucial moments between adventures. These periods offer opportunities for characters to pursue various tasks beyond combat and quests. Downtime allows for crafting, training, business ventures, research, social interactions, and rest. It's a time for characters to develop skills, establish connections, and prepare for what lies ahead in their ongoing journey. </p>
       <hr></hr>
       <div className="downtime-list">
         <Link to="/downtime/carousing" className="downtime-card">
