@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
-import logo from '../../images/haven-logo.jpg'; // Adjust the image path
+import logo from '../../images/haven-logo-optimized.jpg'; // Adjust the image path
 import { Link } from 'react-router-dom';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
 

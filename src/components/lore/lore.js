@@ -1,9 +1,9 @@
 import React from "react";
 import "./lore.css"
 import siblings from "../../images/lore/andrathion-and-edlothia.png"
-import burning from "../../images/lore/the-burning-of-teldrassil.png"
-import silvenore from "../../images/lore/silvenore.png"
-import namira from "../../images/lore/namira.png"
+import burning from "../../images/lore/the-burning-of-teldrassil-optimized.jpg"
+import silvenore from "../../images/lore/silvenore-optimized.jpg"
+import namira from "../../images/lore/namira-optimized.jpg"
 import solemn from "../../images/lore/solemn.png"
 import shambhala from "../../images/lore/shambhala.png"
 
